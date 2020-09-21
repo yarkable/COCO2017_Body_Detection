@@ -86,8 +86,7 @@ def viz_four():
 def viz_four_by_result():
     '''
     四张图片拼成一张之后的可视化
-    依靠双肩、双臀四个关键点的标注来确定一个 BoundingBox 
-    然后将 BoundingBox 给可视化
+    用本地的 result 来可视化，用于查 bug
     '''
     this_file = []
     next_file = []
